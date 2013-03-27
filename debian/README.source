@@ -1,8 +1,11 @@
-rectification for Debian
-------------------------
+rectification for ArcheOS
+-------------------------
 
-<this file describes information about the source package, see Debian policy
-manual section 4.14. You WILL either need to modify or delete this file>
+Rectification is an abandoned module from e-foto photogrammetry suite.
+Homepage: http://www.efoto.eng.uerj.br/
+Upstream page: http://sourceforge.net/projects/e-foto/
+
+Rectification has been packaged by Domenico Giusti for ArcheOS.
 
 
 
