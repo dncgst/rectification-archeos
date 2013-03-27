@@ -1,0 +1,18 @@
+Description: Updated About page
+ On 2012 Rectification module has been ported from Qt3 to Qt4 library.
+Author: Domenico Giusti <dncgst@gnewarchaeology.it>
+Origin: upstream
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/about.ui
++++ b/about.ui
+@@ -41,6 +41,9 @@
+     <string>&lt;u>Rectification Module&lt;/u>&lt;br>&lt;br>
+ 
+ &lt;u>What's new:&lt;/u>&lt;br>&lt;br>
++Version 1.2 - May 2012&lt;br>
++- Qt3 Qt4 porting. &lt;br>
++
+ Version 1.2 - Dec 2006&lt;br>
+ - Layout improvement. &lt;br>
+ - Resize main window. &lt;br>
