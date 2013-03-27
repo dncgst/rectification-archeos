@@ -1,15 +1,18 @@
 Source: rectification
-Section: unknown
+Section: graphics
 Priority: extra
 Maintainer: Domenico Giusti <dncgst@gnewarchaeology.it>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0), libqt4-dev (>=4.8.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/rectification.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/rectification.git;a=summary
+Homepage: http://www.efoto.eng.uerj.br/
+Vcs-Git: git://github.com/dncgst/rectification-archeos.git
+Vcs-Browser: https://github.com/dncgst/rectification-archeos.git
 
 Package: rectification
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: ArcheOS rectification module from e-foto photogrammetry suite.
+ Rectification is a module from e-foto photogrammetry suite. Rectification 
+ aims to make the correction of a digital photographic image originally
+ distorted, projecting it onto a horizontal plane through geometric
+ transformations.
