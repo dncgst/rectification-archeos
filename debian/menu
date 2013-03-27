@@ -1,2 +1,2 @@
 ?package(rectification):needs="X11" section="Applications/Graphics"\
-  title="rectification" command="/usr/bin/rectification"
+  title="rectification" command="/usr/bin/rect"
