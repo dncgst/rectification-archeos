@@ -1,7 +1,6 @@
 Description: Updated About page
  On 2012 Rectification module has been ported from Qt3 to Qt4 library.
 Author: Domenico Giusti <dncgst@gnewarchaeology.it>
-Origin: upstream
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/about.ui
